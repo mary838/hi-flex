@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  height: 45vh;
+  border: 10px solid black;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  column-gap: 2em;
+  row-gap: 2em;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  font-size: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: auto;
+}
+#box1 {
+  background-color: yellow;
+}
+#box2 {
+  background-color: blue;
+}
+#box3 {
+  background-color: pink;
+}
+#box4 {
+  background-color: blueviolet;
+}
